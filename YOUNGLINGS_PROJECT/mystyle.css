@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url('https://www.itl.cat/pngfile/big/62-625656_live-wallpaper-hd-free-download-colorful-hot-air.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+h4 {
+  text-decoration: no underline;
+}
+.contact-title{
+    margin-top: 100px;
+    color: white;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.contact-title h1{
+    font-size: 40px;
+    line-height: 10px;
+}
+
+.contact-title h2{
+ font-size: 16px;
+}
+
+ /* Style the top navigation bar */
+ .navbar {
+    overflow: hidden; /* Hide overflow */
+    background-color: #333; /* Dark background color */
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: right; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right; /* Float a link to the right */
+  }
+  
+  /* Change color on hover/mouse-over */
+  .navbar a:hover {
+    background-color: #ddd; /* Grey background color */
+    color: black; /* Black text color */
+  }
+
+.form{
+    margin-top: 60px;
+    transition: all 4s ease-in-out;
+   }
+
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input{
+    height: 60px;
+    width: 50px;
+
+}
+
+form.submit{
+    background: #ff5722;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover
+{
+ background-color: #f44336;
+ cursor: pointer;
+}
+.g-recaptcha{
+    margin: 10px 400px;
+}
+
